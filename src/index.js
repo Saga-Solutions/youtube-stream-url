@@ -25,7 +25,7 @@ const getInfo = async ({ video_id }) => {
     if (!response.data) return false;
 
     let video_info = response.data;
-    // console.log(video_info)
+    
     return video_info
 };
 
