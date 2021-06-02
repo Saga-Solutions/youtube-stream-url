@@ -5,7 +5,6 @@ const getInfo = async ({ video_id }) => {
     if (!video_id) return false;
 
     let ytApi = 'https://api.y2mate.guru/api/convert';
-    console.log(ytApi)
 
     const options = {
         headers: {
